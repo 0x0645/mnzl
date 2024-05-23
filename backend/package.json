@@ -1,0 +1,43 @@
+{
+  "name": "mnzl_movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/lodash": "^4.17.4",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^12.5.0",
+    "argon2": "^0.40.1",
+    "axios": "^1.7.2",
+    "config": "^3.3.11",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.4.0",
+    "nanoid": "^5.0.7",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "zod": "^3.23.8"
+  }
+}
