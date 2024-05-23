@@ -66,6 +66,7 @@ export async function signRefreshToken({ userId }: { userId: string }) {
         throw new Error('Failed to sign refresh token');
     }
 }
+
 /**
  * Signs an access token for the given user.
  *
